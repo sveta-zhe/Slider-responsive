@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 18px;
+  font-family: sans-serif;
+  color: #222;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 10px auto;
+  background: #f7f7f7;
+  padding: 25px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  background: none;
+  border: 1px solid black;
+  padding: 10px 20px;
+  font-size: 0.9rem;
+  box-shadow: 0px 5px 8px 0px rgba(87, 87, 87, 0.5);
+  margin: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: rgb(235, 240, 255);
+}
+
+button:active {
+  background: #000;
+  color: #fff;
+}
+
+.slider {
+  border: 1px solid rgb(24, 24, 24);
+  max-width: 50%;
+  margin: 20px auto;
+  overflow: hidden;
+  object-fit: contain;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 8px 18px 0px rgba(87, 87, 87, 0.5);
+  max-height: 80vh;
+}
+
+.slider-line {
+  display: flex;
+  background: rgb(211, 211, 211);
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  transition: all ease 1s;
+  box-shadow: 0px 5px 8px 0px rgba(87, 87, 87, 0.5);
+}
